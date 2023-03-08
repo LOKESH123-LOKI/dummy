@@ -6,6 +6,8 @@ namespace dummy
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to dummy project");
+            Addition addition = new Addition();
+            addition.add();
         }
     }
 }
